@@ -6,7 +6,7 @@ class GameObject {
     this.direction = config.direction || "down";
     this.sprite = new Sprite({
       gameObject: this,
-      src: config.src || "/WebGame/images/characters/people/hero.png",
+      src: config.src || "/images/characters/people/hero.png",
     });
   }
   mount(map){
